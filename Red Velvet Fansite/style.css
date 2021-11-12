@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation */
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: palevioletred !important;
+}
+.navbar{
+    background: black;
+}
+.navbar-toggler
+{
+    border: none !important;
+
+}
+
+.nav-link
+{
+    color: plum !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* tulisan red velvet nya */
+
+
+#rv {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px 0;
+    color: pink;
+}
+#rv h1 {
+
+    text-align: center;
+    color:pink !important;
+    font-size: 30px;
+    font-style: italic ;
+    padding-bottom: 10px;
+}
+/* SLider */
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 90%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+.carousel-caption h5
+{
+    color: whitesmoke;
+    font: size 100px; 
+}
+
+/* redvelvet */
+#redvelvet
+{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: thistle;
+}
+
+#redvelvet .btn 
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    fill: palevioletred;
+   
+}
+.about content
+{
+    padding-top: 20px;
+}
+.skills-bar
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+    
+}
+.progress-bar
+{
+    border-radius: 16px;
+    color: palevioletred;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px ;
+    color: palevioletred;
+}
+/* l&a */
+#services
+{
+    color: thistle !important;
+    background-image: linear-gradient(rgba(0,0,0,0,8)rgba(0,0,0,0,8)),url(4.jpg);
+    background-color: wheat !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#services h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid darkorange;
+    border-radius: 50%;
+}
+.icon .fa
+{
+    color: tomato;
+}
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: darkorange;
+}
+
+#services .col-md-3:hover
+{
+  background-color: papayawhip;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+
+/* teams */
+#teams
+{
+    border-image-width: 100%;
+    color: thistle !important;
+    background-image: linear-gradient(rgba(0,0,0,0,8)rgba(0,0,0,0,8)),url(4.jpg);
+    background-color: white !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+#teams h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+
+#teams h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.teams
+{
+    margin-top: 40px;
+}
+
+/* our teams */
+#ourteams
+{
+    border-image-width: 100%;
+    color: thistle !important;
+    background-image: linear-gradient(rgba(0,0,0,0,8)rgba(0,0,0,0,8)),url(4.jpg);
+    background-color:wheat!important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#ourteams h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+
+#ourteams h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.ourteams
+{
+    margin-top: 40px;
+}
+
+/* AWARDS */
+
+#awards
+
+{
+    background-color:white!important;
+}
+
+#awards h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+#awards h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.awards
+{
+    margin-top: 40px;
+}
+/* CONTACT */
+
+button.btn
+{
+    margin: 20px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 2opx;
+}
+button.btn-primary{
+    background-color: pink;
+    color: darkorange;
+}
+
+
+
+button.btn:hover
+{
+    background: blanchedalmond;
+    border: navajowhite;
+    color: palevioletred;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.3s;
+}
+
+#contact
+{
+    background: #efefef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0;
+    border: none !important;
+    margin-bottom: auto;
+}
+::placeholder
+{
+    color:pink!important;
+}
+#contact h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+#contact h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.contact
+{
+    margin-top: 40px;
+}
+/* footer */
+#footer
+{
+    background-color:black;
+    color:plum;
+    padding: 12px;
+}
+
